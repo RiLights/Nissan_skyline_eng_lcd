@@ -13,10 +13,10 @@ All function here specially focused to read/write 93c66 EEPROM from Nissan Skyli
 
 ```
 #Create reserve copy of your original EEPROM
-read_dump.py -o original_dump.bin
+read_eeprom.py -o original_dump.bin
 
 #Write new dump
-write_dump.py -i eng_dump.bin
+write_eeprom.py -i eng_dump.bin
 ```
 
 ##### Tested on:
