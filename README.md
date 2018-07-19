@@ -1,7 +1,7 @@
 <p align="center"><img width=15% src="https://github.com/RiLights/Nissan_skyline_eng_lcd/blob/master/eng_lcd.jpg"></p>
 
 # Nissan Skyline English LCD
-Nissan Skyline Japanese to English conversion
+Nissan Skyline Japanese to English conversion.                             
 Programator to change language from Japanese to English for gauge cluster on Nissan Skyline. 
 
 ##### Requirements:
