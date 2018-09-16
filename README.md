@@ -10,9 +10,9 @@ Programator to change language from Japanese to English for gauge cluster on Nis
 - Python 2.7 or higher
 
 #### How to use it
-All function here specially focused to read/write 93c66 EEPROM from Nissan Skyline (Infiniti G) that is mean you don't have setup option so everything should be pretty simple :)
+All function here specially focused to read/write 93c66 EEPROM from Nissan Skyline (Infiniti G) that is mean you don't have to setup option so everything should be pretty simple :)
 
-sky_setup.py - Initial setup where you have to provide port and serial speed to your arduino (arduino/sky_pro.ini - speed also can be configured from arduino side). 
+sky_setup.py - Initial setup where you have to provide port and serial speed to your arduino (arduino/sky_pro.ini - baud rate also can be configured for arduino side). 
 
 ```
 #Create copy of your original EEPROM (for any case)
