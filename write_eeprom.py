@@ -22,7 +22,7 @@ if args.input_dump:
     serial_port.write('w')
     logging.info('State - {}'.format(serial_port.readline()))
 
-
+    serial_port.write('w')
     for i in bytedata:
         serial_port.write(i)
         logging.debug('Byte: {}'.format(serial_port.readline()))
